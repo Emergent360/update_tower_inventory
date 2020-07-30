@@ -5,3 +5,4 @@
     name: "{{ ec2_name_prefix }} AWS Inventory"
     organization: "Empire"
     state: present
+    validate_certs: no
