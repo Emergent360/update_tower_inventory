@@ -6,3 +6,5 @@
     organization: "Empire"
     state: present
     validate_certs: no
+    tower_username: admin
+    tower_password: emergent-42-automaton
