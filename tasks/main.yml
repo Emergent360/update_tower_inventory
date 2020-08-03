@@ -5,6 +5,4 @@
     name: "{{ ec2_name_prefix }} AWS Inventory"
     organization: "Empire"
     state: present
-    validate_certs: no
-    tower_username: admin
-    tower_password: emergent-42-automaton
+    tower_config_file: "/etc/tower/tower_cli.cfg"
